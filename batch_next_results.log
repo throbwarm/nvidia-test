@@ -1,0 +1,29 @@
+Buscando modelos disponíveis na NVIDIA API...
+7 modelos encontrados. Iniciando testes...
+
+  moonshotai/kimi-k2.5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7/7 0:04:25
+
+───────────────── NVIDIA Provider Benchmark — 2026-04-06 ─────────────────
+
+╭─────────────────────────────────────────┬─────────┬─────┬─────┬─────┬───
+│                                         │         │     │     │     │ La
+│                                         │         │ Ch… │ In… │ To… │ mé
+│ Modelo                                  │  Score  │ PT… │ JS… │ Ca… │ (m
+├─────────────────────────────────────────┼─────────┼─────┼─────┼─────┼───
+│ moonshotai/kimi-k2-instruct             │   3/3   │ ✅  │ ✅  │ ✅  │ 24
+│ meta/llama-3.3-70b-instruct             │   3/3   │ ✅  │ ✅  │ ✅  │ 11
+│ meta/llama-4-maverick-17b-128e-instruct │   2/3   │ ✅  │ ✅  │ ❌  │  6
+│ deepseek-ai/deepseek-v3.2               │   2/3   │ ❌  │ ✅  │ ✅  │ 35
+│ meta/llama-4-scout-17b-16e-instruct     │   0/3   │ ❌  │ ❌  │ ❌  │   
+│ mistralai/mistral-large-2-instruct      │   0/3   │ ❌  │ ❌  │ ❌  │   
+│ moonshotai/kimi-k2.5                    │   0/3   │ ❌  │ ❌  │ ❌  │ 90
+╰─────────────────────────────────────────┴─────────┴─────┴─────┴─────┴───
+
+🏆 Melhor geral:     moonshotai/kimi-k2-instruct  (score 3/3, 2489ms)
+⚡ Mais rápido:      meta/llama-4-maverick-17b-128e-instruct  (696ms, 
+score 2/3)
+🔧 Suporta tools:    moonshotai/kimi-k2-instruct, 
+meta/llama-3.3-70b-instruct, deepseek-ai/deepseek-v3.2
+
+Total de modelos testados: 7
+

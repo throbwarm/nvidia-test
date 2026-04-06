@@ -1,0 +1,26 @@
+Buscando modelos disponíveis na NVIDIA API...
+4 modelos encontrados. Iniciando testes...
+
+  nvidia/llama-3.3-nemotron-super-49b-v1 ━━━━━━━━━━━━━━━━━━━━━ 4/4 0:00:30
+
+───────────────── NVIDIA Provider Benchmark — 2026-04-06 ─────────────────
+
+╭────────────────────────────────────────┬─────────┬─────┬──────┬─────┬───
+│                                        │         │     │      │     │ La
+│                                        │         │ Ch… │ Ins… │ To… │ mé
+│ Modelo                                 │  Score  │ PT… │ JSON │ Ca… │ (m
+├────────────────────────────────────────┼─────────┼─────┼──────┼─────┼───
+│ nvidia/llama-3.3-nemotron-super-49b-v1 │   3/3   │ ✅  │  ✅  │ ✅  │ 17
+│ mistralai/mistral-nemotron             │   2/3   │ ✅  │  ✅  │ ❌  │ 20
+│ nv-mistralai/mistral-nemo-12b-instruct │   0/3   │ ❌  │  ❌  │ ❌  │   
+│ nvidia/llama-3.1-nemotron-70b-instruct │   0/3   │ ❌  │  ❌  │ ❌  │   
+╰────────────────────────────────────────┴─────────┴─────┴──────┴─────┴───
+
+🏆 Melhor geral:     nvidia/llama-3.3-nemotron-super-49b-v1  (score 3/3, 
+1703ms)
+⚡ Mais rápido:      nvidia/llama-3.3-nemotron-super-49b-v1  (1703ms, 
+score 3/3)
+🔧 Suporta tools:    nvidia/llama-3.3-nemotron-super-49b-v1
+
+Total de modelos testados: 4
+

@@ -1,0 +1,27 @@
+Buscando modelos disponíveis na NVIDIA API...
+8 modelos encontrados. Iniciando testes...
+
+  qwen/qwen2.5-coder-7b-instruct ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8/8 0:00:42
+
+───────────────── NVIDIA Provider Benchmark — 2026-04-06 ─────────────────
+
+╭──────────────────────────────────────────┬─────────┬─────┬─────┬─────┬──
+│                                          │         │     │     │     │ L
+│                                          │         │ Ch… │ In… │ To… │ m
+│ Modelo                                   │  Score  │ PT… │ JS… │ Ca… │ (
+├──────────────────────────────────────────┼─────────┼─────┼─────┼─────┼──
+│ qwen/qwen2.5-coder-32b-instruct          │   2/3   │ ✅  │ ✅  │ ❌  │ 7
+│ qwen/qwen2.5-coder-7b-instruct           │   2/3   │ ✅  │ ✅  │ ❌  │ 1
+│ bigcode/starcoder2-15b                   │   0/3   │ ❌  │ ❌  │ ❌  │  
+│ deepseek-ai/deepseek-coder-6.7b-instruct │   0/3   │ ❌  │ ❌  │ ❌  │  
+│ google/codegemma-1.1-7b                  │   0/3   │ ❌  │ ❌  │ ❌  │  
+│ ibm/granite-34b-code-instruct            │   0/3   │ ❌  │ ❌  │ ❌  │  
+│ meta/codellama-70b                       │   0/3   │ ❌  │ ❌  │ ❌  │  
+│ mistralai/codestral-22b-instruct-v0.1    │   0/3   │ ❌  │ ❌  │ ❌  │  
+╰──────────────────────────────────────────┴─────────┴─────┴─────┴─────┴──
+
+🏆 Melhor geral:     qwen/qwen2.5-coder-32b-instruct  (score 2/3, 740ms)
+⚡ Mais rápido:      qwen/qwen2.5-coder-32b-instruct  (740ms, score 2/3)
+
+Total de modelos testados: 8
+

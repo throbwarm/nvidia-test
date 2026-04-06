@@ -1,0 +1,28 @@
+Buscando modelos disponíveis na NVIDIA API...
+5 modelos encontrados. Iniciando testes...
+
+  stepfun-ai/step-3.5-flash ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5/5 0:01:39
+
+───────────────── NVIDIA Provider Benchmark — 2026-04-06 ─────────────────
+
+╭─────────────────────────────────────┬─────────┬──────┬──────┬──────┬────
+│                                     │         │      │      │      │ Lat
+│                                     │         │ Chat │ Ins… │ Tool │ méd
+│ Modelo                              │  Score  │ PT-… │ JSON │ Call │ (ms
+├─────────────────────────────────────┼─────────┼──────┼──────┼──────┼────
+│ mistralai/mistral-small-4-119b-2603 │   3/3   │  ✅  │  ✅  │  ✅  │  62
+│ qwen/qwen3-next-80b-a3b-instruct    │   3/3   │  ✅  │  ✅  │  ✅  │ 188
+│ minimaxai/minimax-m2.5              │   3/3   │  ✅  │  ✅  │  ✅  │ 486
+│ bytedance/seed-oss-36b-instruct     │   2/3   │  ✅  │  ✅  │  ❌  │ 435
+│ stepfun-ai/step-3.5-flash           │   2/3   │  ✅  │  ❌  │  ✅  │ 139
+╰─────────────────────────────────────┴─────────┴──────┴──────┴──────┴────
+
+🏆 Melhor geral:     mistralai/mistral-small-4-119b-2603  (score 3/3, 
+622ms)
+⚡ Mais rápido:      mistralai/mistral-small-4-119b-2603  (622ms, score 
+3/3)
+🔧 Suporta tools:    mistralai/mistral-small-4-119b-2603, 
+qwen/qwen3-next-80b-a3b-instruct, minimaxai/minimax-m2.5
+
+Total de modelos testados: 5
+
